@@ -1,0 +1,80 @@
+/*------------------------------------------DOCENTES-----------------------------------------------------*/
+.column__img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.group__docentes .container--flex {
+    align-content: flex-start;
+}
+.column__docentes {
+    background: $bg-container-horario;
+    width: 100%;
+    color: $color-letra-header;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.colum__dcfinal {
+    margin-bottom: 0;
+}
+.group__title {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'monospace', sans-serif;
+}
+.column__range {
+    text-align: center;
+    border-bottom: 1px solid $color-letra-header;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.column__title {
+    text-align: center;
+}
+.column__pg {
+    text-align: center;    
+}
+/*------------------------------------------DOCENTES------------------------------------------------------*/
+
+/*------------------------------------------RESPONSIVE------------------------------------------------------*/
+@media screen and (min-width:480px) {
+    .column__docentes {
+        width: 49%;
+        padding: 10px;
+        margin: 3px;
+        height: 505.25px;
+        
+    }
+}
+@media screen and (min-width:768px) {
+    .column__docentes {
+        width: 49%;
+        padding: 10px;
+        margin: 3px;
+        height: 505.25px;
+        
+    }
+}
+@media screen and (min-width:1024px) {
+    .column__docentes {
+        width: 32%;
+        padding: 10px;
+        margin: 3px;
+        height: 505.25px;
+        
+    }
+}
+@media screen and (min-width:1600px) {
+    .column__img {
+        height: 300px;
+    }
+    .column__docentes {
+        width: 32%;
+        padding: 10px;
+        margin: 5px;
+        height: 600px;
+        
+    }
+}
+

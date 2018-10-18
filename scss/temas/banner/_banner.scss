@@ -1,0 +1,89 @@
+/* -----------------------------------------------Estilos de banner--------------------------------------------------- */
+.banner {
+    margin-top:-240px; 
+    position: relative;
+    z-index: -1000;
+}
+.banner__btn {
+    display: inline-block;
+    position: absolute;
+    z-index: 2500;
+    text-align: center; 
+    text-decoration: none;
+    border: 1px solid $color-letra-header;
+    color:  $color-letra-header;
+    padding: 5px;
+    margin: 0 auto;
+    width: 120px;
+    top: 57%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+ .banner:before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0,.35);
+     top:0;
+     z-index: 1000;
+}
+.banner__img {
+    width: 100%;
+    height: 655px;
+    object-fit: cover;
+}
+.banner__content {
+    width: 100%;
+    color: $color-letra-header;
+    text-align: center;
+    position: absolute;
+    z-index: 1500;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* -----------------------------------------------fin del banner--------------------------------------------------- */
+/* -----------------------------------------------Responsive--------------------------------------------------- */
+@media screen and (min-width:480px) {
+
+}
+@media screen and (min-width:768px) {
+    .banner__img {
+        height:650px;
+    }
+    .banner__content {
+        font-size: 2.2em;
+    }
+}
+@media screen and (min-width:1024px) {
+    .banner__img {
+        width: 100%;
+        height: 750px;
+        object-fit: cover;
+    }
+    .banner__content {
+        font-size: 2.2em;
+    } 
+    .column--50-25 {
+        width: 45%;
+        padding: 5px;
+        border: 1px solid gray;
+        margin: auto;
+    }
+}
+@media screen and (min-width:1600px) {
+    .banner__img {
+        width: 100%;
+        height: 1000px;
+        object-fit: cover;
+     }
+     .banner__content {
+       font-size: 2.8em;
+     } 
+     .group__title {
+       font-size: 2.2em;
+     }
+}

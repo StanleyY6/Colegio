@@ -1,0 +1,88 @@
+.main-footer {
+    background: $bg-footer;
+    color: $color-letra-header;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .6em;
+}
+.copy {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.main-footer [class*="icon-"] {
+    color: $color-letra-header;
+    text-decoration: none;
+}
+.column--33 [class*="icon-"] {
+    border-bottom: 1px solid $color-letra-header;
+}
+.main-footer [class*="icon-"]:before {
+    position: relative;
+    top: 2px;
+}
+/* -----------------------------------------------fin del footer--------------------------------------------------- */
+/* -----------------------------------------------Responsive--------------------------------------------------- */
+@media screen and (min-width:480px) {
+    .column--33 {
+        width: 32%;
+        padding: 10px;    
+    }
+    .main-footer .container--flex {
+        align-items: flex-start;
+    }
+    .main .main-footer {
+        background: $bg-footer;
+        color: $color-letra-header;
+        font-size: .6em;
+    }   
+    .column--33 [class*="icon-"] {
+        border-bottom: 1px solid $color-letra-header;
+    }
+}
+@media screen and (min-width:768px) {
+    .column--33 {
+        width: 32%;
+        padding: 10px;    
+    }
+    .main-footer .container--flex {
+        align-items: flex-start;
+    }
+    .main .main-footer {
+        background: $bg-footer;
+        color: $color-letra-header;
+        font-size: .7em;
+    } 
+    .column--33 [class*="icon-"] {
+        border-bottom: 1px solid $color-letra-header;
+    }
+}
+@media screen and (min-width:1024px) {
+    .column--33 {
+        width: 32%;
+        padding: 10px;    
+    }
+    .main-footer .container--flex {
+        align-items: flex-start;
+    }
+    .main .main-footer {
+        background: $bg-footer;
+        color: $color-letra-header;
+        font-size: .7em;
+    }
+    
+    .column--33 [class*="icon-"] {
+        border-bottom: 1px solid $color-letra-header;
+    }   
+}
+@media screen and (min-width:1600px) {
+    .main-footer .container--flex {
+        align-items: flex-start;
+    }
+    .main .main-footer {
+        background: $bg-footer;
+        color: $color-letra-header;
+        font-size: 1.2em;
+    }
+}

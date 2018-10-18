@@ -1,0 +1,52 @@
+// // // // // // //VARIABLES DEL color de letra e iconos // // 
+
+$color-letra-header: #fff; /*SON TODOS LOS TEXTOS DE LOS HEADER FOOTER ICONS Y CONTENT DEL BANNER*/
+$font-family: "'Krub', sans-serif";    /*LETRA DE TODA LA PÁGINA*/
+$group-title:'Oswald', sans-serif;   /*ENCABEZADOS DE UNA SECCION*/
+
+
+// // // // //  // VARIABLES DEL tamaño de letra del header y el largo del logo// // // 
+$ancho-logo: 50%; /*ANCHO DEL LOGO DEL HEADER*/
+$largo-logo: "110px"; /* ES EL HEIGHT DEL LOGO SI SE CAMBIA HAY QUE CAMBIAR EL CONTAINER DEL HEADER IGUAL QUE EL main-header__contactinfo*/
+
+// // // // // // // // // // // // // //// // 
+// // // // // // //VARIABLES GENERALES // // 
+
+$ancho-img: 100%;
+$ancho-container: 100%;
+
+
+// // // // // // // // // // // // // // // 
+// // // // //  // VARIABLES DEL BANNER// // // 
+
+// // // // //  // VARIABLES DE LA SECCION NOTICIAS Y COLOR DE HOVER DE BOTON// // // 
+
+
+
+$noticias-img: 350px; /*LARGO DE LA IMAGEN DE NOTICIAS EN LAPTOP Y TV */
+
+
+// // // // // // // // // // // // // // // // /
+// // // // // // // // // COLORES DEL FOOTER // // // // // // // // // //
+
+$bg-footer: #27368b;/*COLOR DEL FOOTER Y TH DE LAS TABLAS*/
+
+// // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // //NOSOTROS HTML // // // // // // // // // // // // // 
+
+$bg-about: #18B8DF; /*COLOR DE BG DE LA PARTE DE QUIENES SOMOS*/
+$bg-mivi: #1A9547; /*COLOR DE BG DE MISION Y VISION*/
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // //HORARIOS DE CLASE // // // // // // // // // // // // // // 
+
+$bg-container-horario: #1d9d4a;
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // ///
+// // // // // // // // // // // // BOTONES HTML// // // // // // // // // // // // // // // // //
+
+ $btn-success: #4aae51; /*COLOR DEL BOTON DE ENVIAR EN EL HOVER*/
+ $btn-beware: #F7D81A;/*COLOR DEL BOTON DE ENVIAR*/
+ $btn-warning: #C82F2B; /* COLOR DE BOTON PELIGRO*/
+ $color-btn:#2196F3; /*COLOR DE LA LETRA Y BORDE DE LOS BOTONES*/
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // ///

@@ -1,0 +1,96 @@
+/*----------------------------------------nostros html--------------------------------------------*/
+
+.about-us {
+    background: $bg-about;
+    color: $color-letra-header;  
+}
+.vision, .mision, .activities {
+    background: $bg-mivi;
+    color:$color-letra-header;
+    padding-top: 20px;
+}
+.activities__btn {
+    text-decoration: none;
+    color: $color-letra-header;
+    font-size: .8em;
+    padding: 5px;
+    border: 1px solid $color-letra-header;
+    margin-left: 30%;
+}
+.activities__btn:hover {
+    background: $color-btn;
+}
+.about-us__img  {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.about-us--100 {
+    width: 100%;
+    padding: 10px;
+}
+.about-us__content {
+    font-size: 1em;
+    text-align: left;
+    font-weight: 10;
+}
+.about-us__title {
+    text-align: center;
+    font-size: 1.4em;
+}
+.about-us--50 {
+    width: 49%;
+    padding: 10px;
+}
+/*------------------------------------------------NOSOTROS HTML-----------------------------------------------------*/
+/*------------------------------------------------RESPONSIVE-----------------------------------------------------*/
+@media screen and (min-width:480px) {
+    .about-us__content {
+        font-size: 0.8em;
+    }
+}
+@media screen and (min-width:768px) {
+    .about-us__content {
+        font-size: 1em;
+    }
+    .about-us__img {
+        height: 250px;
+    }
+    .activities__btn {
+        margin-left: 40%; 
+        font-size: 0.9em;
+    }
+}
+@media screen and (min-width:1024px) {
+    .about-us__content {
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    .about-us__img {
+        height: 320px;
+    }
+    .activities__btn {
+        margin-left: 45%;
+        font-size: 1em;
+    }
+    .about-us__title {
+        font-size: 1.8em;
+    }
+
+}
+@media screen and (min-width:1600px) {
+    .about-us__content {
+        font-size: 1.4em;
+        padding: 5px;
+    }
+    .about-us__img {
+        height: 420px;
+    }
+    .activities__btn {
+        margin-left: 45%;
+        font-size: 1.1em;
+    }
+    .about-us__title {
+        font-size: 2em;
+    }
+}

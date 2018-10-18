@@ -1,0 +1,97 @@
+
+/* -----------------------------------------------Estilos de las noticias--------------------------------------------------- */
+.group__title {
+    font-family: $group-title;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 100;
+    margin: 30px;
+}
+.noticias .column {
+    margin-bottom: 30px;
+}
+.noticias__img {
+  margin: auto;
+  max-width:350px;  
+  object-fit: cover; 
+}
+.noticias__title {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px 20px;
+}
+.noticias__resumen {
+    text-align: center;
+    font-size: .8em;
+    padding: 0 20px;
+}
+.noticias__btn {
+    display: block;
+    text-align: center; 
+    text-decoration: none;
+    border: 1px solid $color-btn ;
+    color:  $color-btn;
+    padding: 5px;
+    margin: 0 auto;
+    width: 120px;
+}
+.noticias__btn:hover {
+    background:  $color-btn;
+    color: $color-letra-header;
+}
+/* -----------------------------------------------fin de las noticias--------------------------------------------------- */
+/* -----------------------------------------------Responsive--------------------------------------------------- */
+@media screen and (min-width:480px) {
+    .column--50-25 {
+        width: 49%;
+        padding: 10px;
+        border: 1px solid gray;
+        margin: 2px;
+    }
+    .noticias__img {
+        height: 180px;    
+    }
+}
+@media screen and (min-width:768px) {
+    .column--50-25 {
+        width: 49%;
+        padding: 5px;
+        border: 1px solid gray;
+        margin: 2px;
+    }
+    .noticias__img {
+        height: $noticias-img;    
+    }
+}
+@media screen and (min-width:1024px) {
+    .noticias__img {
+        height: $noticias-img;    
+    }
+    .noticias__title {
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+    .group__title {
+        font-size: 2.2em;
+    }
+    
+    .noticias__img {
+        margin: auto;
+        max-width:700px;  
+        object-fit: cover; 
+        height: 250px;
+    }
+    .grop .noticias.noticias__btn {
+       color: $color-btn;
+        padding: 15px;
+        margin: 20px auto;
+        width: 120px;
+    }
+}
+@media screen and (min-width:1600px) {
+    .noticias__img {
+        height: $noticias-img;    
+    }
+}

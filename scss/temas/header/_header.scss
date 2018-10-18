@@ -1,0 +1,80 @@
+.main-header {
+    width: 100%;
+}
+.logo {
+    width: $ancho-logo;
+    height: $largo-logo;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.main-header__contactinfo {
+    text-align: right;
+    height: $largo-logo;
+}
+.main-header__contactinfo__phone {
+    color:$color-letra-header;
+    margin: 0 auto;
+    padding: 25px 5px 5px 5px;
+    font-size: .8em;
+}
+.main-header__contactinfo__address {
+    color: $color-letra-header;
+    margin: 0 auto;
+    font-size: .9em;
+    padding: 5px;
+}
+.main-header [class*="icon-"]:before {
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+.column--50 {
+    width: 50%;
+}
+/* -----------------------------------------------fin de header--------------------------------------------------- */
+/* -----------------------------------------------Responsive--------------------------------------------------- */
+@media screen and (min-width:480px) {
+    .main-header .logo {
+        width: 35%;
+        height: 120px;
+    }
+    .main-header__contactinfo { 
+        padding: 10px;
+    } 
+}
+@media screen and (min-width:768px) {
+    .main-header .logo {
+        width: 30%;
+        height: 120px;
+    }
+    .main-header__contactinfo { 
+        padding: 15px;
+    } 
+}
+@media screen and (min-width:1024px) {
+    .main-header .logo {
+        width: 21%;
+        height: 120px;
+    }
+    .main-header .main-header__contactinfo {
+        height: 120px;
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width:1600px) {
+    .logo-container {
+        height: 200px;
+    }
+    .main-header .main-header__contactinfo {
+        font-size: 1.8em;
+        height: 200px;
+        padding: 50px;
+    }
+    .logo-container .logo {
+        height: 180px; 
+        padding: 10px;
+        width: 25%;   
+        margin-top: 10px;
+     }
+}

@@ -1,0 +1,153 @@
+/*-----------------------------------------------------Oferta Tema--------------------------------------------------*/
+.oferta {
+    width: 100%;
+    margin-bottom: 20px;
+    @media screen and (min-width:1024px) {
+        width: 1000px;
+        margin: auto;
+    }
+    @media screen and (min-width:1600px) {
+        width: 1400px;
+        margin: auto;
+    }
+    & .oferta__title{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 1.4em;
+        font-family: $group-title;
+        padding: 5px;
+        text-align: center;
+        border-bottom: 1px solid $bg-mivi;
+        @media screen and (min-width:768px) {
+            font-size: 1.45em;
+        }
+        @media screen and (min-width:1600px) {
+            font-size: 1.55em;
+            padding: 25px;
+        }
+    }
+    & .oferta__content  {
+        width: 100%;
+        font-size: 1.1em;
+        padding: 10px;
+        text-align: start;
+        @media screen and (min-width:480px) {
+            padding: 20px;
+        }
+        @media screen and (min-width:768px) {
+            font-size: 1.25em; 
+        }
+    }
+    & .oferta__tabla {
+        width: 100%;    
+    }
+}
+.oferta--final{
+    margin-bottom: 35px;
+    padding-bottom: 45px;
+}
+/*-----------------------------------------------------Requisitos Tema--------------------------------------------------*/
+.about__title {
+    text-align: center;
+    text-decoration: underline $bg-mivi;
+    line-height: 2;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 1.45em;
+    font-family: $group-title;
+}
+.requisitos {
+    margin: 35px 0 0px 0;
+    border: 1px solid #000;
+    border-radius: 3px;
+    @media screen and (min-width:768px) {
+        width: 90%;
+        margin-left: 5%; 
+    }
+    @media screen and (min-width:1024px) {
+        width: 50%;
+        margin-left:25%; 
+    }
+    @media screen and (min-width:1600px) {
+        width: 25%;
+        margin-left: 37.5%;
+    }
+    & .requisitos__title {
+        width: 100%;
+        text-align: center;
+        font-family: $group-title;
+        font-size: 1.4em;
+        padding-top: 10px;
+        @media screen and (min-width:1024px) {
+            padding-top: 25px;
+        }
+        @media screen and (min-width:1600px) {
+            font-size: 1.55em;
+            padding-top: 35px
+        }
+    }
+    & .requisitos__content {
+        width: 100%;
+        font-size: 1.1em;
+        padding: 10px;
+        text-align: start;
+        @media screen and (min-width:768px) {
+            font-size: 1.15em;
+            padding: 15px;
+        }
+        @media screen and (min-width:1024px) {
+            font-size: 1.15em;
+        }
+        @media screen and (min-width:1600px) {
+            font-size: 1.25em;
+        }
+    }
+    & .requisitos__items {
+        width: 100%;
+        padding: 10px 10px;
+        @media screen and (min-width:768px) {
+            padding-bottom: 15px;
+        }
+        @media screen and (min-width:1600px) {
+            font-size: 1.55em;
+            padding-bottom: 25px;
+        }
+    }
+}
+/*----------------------------------------------------Descargas Tema--------------------------------------------------*/
+
+.descarga__content {
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    line-height: 1;
+    @media screen and (min-width:480px) {
+        padding: 5px 15px;
+        
+    }
+    @media screen and (min-width:768px) {
+        padding: 5px 35px;
+    }
+    @media screen and (min-width:1024px) {
+        padding:5px 335px;
+
+        .descarga__link--final {
+            margin-bottom: 25px;
+        }
+    }
+    @media screen and (min-width:1600px) {
+        padding: 10px 980px;
+        font-size: 1.25em;
+    }
+    & .descarga__link {
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid $btn-beware;
+        color: $btn-beware;
+        padding: 5px; 
+    }
+    .descarga__link:hover {
+        color: $color-letra-header;
+        background: $btn-beware;
+    }
+}

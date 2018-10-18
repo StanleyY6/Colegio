@@ -1,0 +1,49 @@
+/* -----------------------------------------------Estilos generales--------------------------------------------------- */
+// // // Tipografia
+@import url('https://fonts.googleapis.com/css?family=Krub|Montserrat');
+
+// // // // Generales
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: $font-family;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: $ancho-img;
+    max-width: $ancho-img;
+}
+h1, h2, h3, h4, h5, h6, {
+    margin: 0;
+}
+.container {
+    width: $ancho-container;
+    margin: auto;
+}
+.container--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*-------------------------------------------------- Fin de los estilos generales------------------------------- */
+/* -----------------------------------------------Responsive--------------------------------------------------- */
+@media screen and (min-width:480px) {
+}
+@media screen and (min-width:768px) {
+}
+@media screen and (min-width:1024px) {
+    .container {
+        width: 1000px;
+    }
+}
+@media screen and (min-width:1600px) {
+    .container {
+        width: 1400px;
+    }
+}
